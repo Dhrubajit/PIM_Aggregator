@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Status : Products Stored</h1>
+
+<div th:if="${message}">
+    <h2 th:text="${message}"/>
+</div>
+
+<form method="POST" action="">
+    <input type="submit" value="Show Products" />
+</form>
+
+</body>
+</html>
